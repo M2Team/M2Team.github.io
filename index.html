@@ -7,43 +7,37 @@
     <style>
         body {
             background-color: #1a1a1a;
-            color: #fff;
+            color: white;
         }
         .navbar {
             background-color: #548235;
-        }
-        .navbar-brand {
-            color: #fff;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            margin-bottom: 6px;
+            margin-bottom: 0.25em;
             transition: all 0.3s ease;
         }
         li:hover {
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
         a {
             text-decoration: none;
             color: #3d93f5;
         }
+        .container {
+            margin-bottom: 7rem !important;
+        }
         .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
             background-color: #548235;
-            color: white;
-            text-align: center;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand ms-3" href="#">
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand text-white ms-3" href="#">
             <img src="M2-Team.png" alt="M2-Team Logo" height="30">
             M2-Team
         </a>
@@ -111,8 +105,8 @@
             for all projects which are archived by M2-Team.
         </ul>
     </div>
-    <div class="footer">
-        <p class="mt-3">
+    <div class="footer text-center fixed-bottom bottom-0 start-0 end-0">
+        <p class="mt-3 mb-3">
             Copyright &copy; M2-Team and Contributors. All rights reserved.
         </p>
     </div>
